@@ -1,0 +1,25 @@
+[
+	{
+		"company": "Sociedad Privada del Alquiler S.A.S.",
+		"from": "2023-04-04T00:00:00.000Z",
+		"to": "Present",
+		"jobTitle": "TI analyst",
+		"modality": "On-site",
+		"description": "I work as a software developer, creating enterprise applications for all company inner needs. Collaborating with a big team and training.",
+		"tags": [
+			"React",
+			"Next",
+			"Node",
+			"PHP",
+			"JavaScript",
+			"TypeScript",
+			"HTML",
+			"CSS",
+			"Tailwind",
+			"Bootstrap",
+			"SASS",
+			"Git"
+		],
+		"uri": "/experience/sociedad-privada-del-alquiler-s-a-s/"
+	}
+]

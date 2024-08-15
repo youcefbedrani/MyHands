@@ -1,0 +1,11 @@
+# Permite la indexación de las rutas específicas
+User-agent: *
+Allow: *
+
+# Instruye a Googlebot para que rastree con una frecuencia media
+User-agent: Googlebot
+Crawl-delay: 3
+
+# Evita que otros robots sigan enlaces externos
+User-agent: *
+Disallow: /?*

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+.noise {
+    background-image: url(/noise.png);
+}
+
+.radial-gradient {
+    background: radial-gradient(50% 50% at 50% 50%, #A5B4FC 0%, #FFF 100%);
+}
+
+#experience {
+    background-image: url(/exp_doodle.svg);
+    background-blend-mode: color-burn;
+}
+
+.radial-mask {
+    -webkit-mask-image: radial-gradient(24rem 24rem at center, white, transparent);
+    mask-image: radial-gradient(24rem 24rem at center, white, transparent);
+}
