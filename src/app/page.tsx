@@ -50,10 +50,13 @@ export default function Home() {
               </Link>
             </div>
             <h1 className="font-montserrat text-5xl font-bold text-neutral-800">
-              Hi, I&apos;m a Web & Mobile Developer
+              Hi, Here is Bedrani Mohammed Adel I&apos;m a Web & Mobile
+              Developer
             </h1>
             <span className="text-xl font-medium leading-6 text-neutral-500">
-              I build beautiful and performant web and mobile applications.
+              "Every great developer you know got there by solving problems they
+              were unqualified to solve until they actually did it." – Patrick
+              McKenzie
             </span>
             <div className="flex gap-4">
               <Link
