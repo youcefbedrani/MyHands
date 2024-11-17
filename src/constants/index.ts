@@ -13,20 +13,11 @@ const PDF_PATH = "BedraniMohammedAdelResume.pdf";
 
 const PROJECTS = [
   {
-    title: "Portfolio",
-    description:
-      "This is my portfolio website. It's built with Next.js and Tailwind CSS.",
-    tags: ["Front-end", "Back-end", "Figma"],
-    image: "/portfolio.png",
-    url: "https://github.com/DanielPenalozaB/portfolio",
-    blogUrl: "/blog/portfolio",
-  },
-  {
     title: "Modern Snake Game",
     description:
       "Built a modern rendition of the classic Snake game with a leaderboard to encourage competition among players.",
     tags: ["JavaScript", "React.js", "Tailwind CSS", "Vercel"],
-    image: "/snake-game.png",
+    image: "https://www.coolmathgames.com/sites/default/files/Snake_OG-logo.jpg",
     url: "https://github.com/youcefbedrani/SnakeGame",
     blogUrl: "/blog/portfolio",
   },
@@ -44,7 +35,8 @@ const PROJECTS = [
     description:
       "Created a clone of the Gemini AI platform, demonstrating familiarity with AI design principles and interactivity.",
     tags: ["JavaScript", "React.js"],
-    image: "/portfolio.png",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgGEua5OXo7nFKVinH_d8BD2BycUAXDJwgRw&s",
     url: "https://github.com/youcefbedrani/Gimini-clone",
     blogUrl: "/blog/gemini-clone",
   },
@@ -98,7 +90,7 @@ const PROJECTS = [
     description:
       "A mobile app with real-time map tracking, allowing users to request truck services instantly. Features include user registration, order management, and real-time trucker tracking.",
     tags: ["React Native", "Leaflet", "Firebase", "Strapi"],
-    image: "/portfolio.png",
+    image: "/photo_5931775480376180451_x.jpg",
     url: "https://github.com/youcefbedrani/DP_V1",
     blogUrl: "/blog/micazone",
   },
