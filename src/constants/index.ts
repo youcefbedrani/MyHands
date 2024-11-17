@@ -205,7 +205,7 @@ const technologies = [
       },
       {
         name: "Tailwind CSS",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        icon: "https://static-00.iconduck.com/assets.00/tailwind-css-icon-2048x1229-u8dzt4uh.png",
       },
       {
         name: "Redux",
@@ -226,7 +226,7 @@ const technologies = [
     skills: [
       {
         name: "Laravel",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg",
+        icon: "https://static-00.iconduck.com/assets.00/laravel-icon-1990x2048-xawylrh0.png",
       },
       {
         name: "Node.js",
@@ -242,7 +242,7 @@ const technologies = [
       },
       {
         name: "REST API",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/api/api-original.svg",
+        icon: "https://freepngimg.com/download/icon/web/7955-rest-api.png",
       },
       {
         name: "GraphQL API",
