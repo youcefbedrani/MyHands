@@ -111,7 +111,7 @@ export default function Home() {
             These are the tools and technologies I excel at
           </p>
         </div>
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="z-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {technologies.map((techCategory) => (
             <div key={techCategory.category}>
               <h3 className="text-xl font-semibold mb-4 text-center text-gray-800">
