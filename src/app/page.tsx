@@ -114,7 +114,7 @@ export default function Home() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {technologies.map((techCategory) => (
             <div key={techCategory.category}>
-              <h3 className="text-xl font-semibold mb-4 text-center text-[##404040]">
+              <h3 className="text-xl font-semibold mb-4 text-center text-gray-800">
                 {techCategory.category}
               </h3>
               <div className="flex flex-wrap justify-center gap-6">
