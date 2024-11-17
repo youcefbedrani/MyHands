@@ -11,7 +11,7 @@ import {
   ExperienceSection,
   ProjectSection,
 } from "@/components";
-import { FIVERR_URL, LINKEDIN_URL } from "@/constants";
+import { technologies, FIVERR_URL, LINKEDIN_URL } from "@/constants";
 import Link from "next/link";
 
 export default function Home() {
@@ -111,72 +111,31 @@ export default function Home() {
             These are the tools and technologies I excel at
           </p>
         </div>
-        <div className="z-10 flex flex-col items-center gap-6 pt-14">
-          <svg
-            width="54"
-            height="54"
-            viewBox="0 0 54 54"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g clipPath="url(#clip0_77_596)">
-              <path
-                d="M39.6875 43.6562C37.4167 43.6562 35.3854 42.9688 33.5938 41.5938C31.8229 40.2188 30.6354 38.4375 30.0312 36.25C29.6146 34.7292 29.4062 33.125 29.4062 31.4375C29.4062 28.875 29.9062 26.2812 30.9062 23.6562C31.9062 21.0104 33.2812 18.5208 35.0312 16.1875C36.7812 13.8542 38.8021 11.6771 41.0938 9.65625C43.4062 7.61458 45.8854 5.82292 48.5312 4.28125L53.0625 8.8125C48.3542 12.5833 45.1354 15.5 43.4062 17.5625C41.6979 19.625 40.8125 21.6771 40.75 23.7188C43.2917 24.0104 45.4167 25.1042 47.125 27C48.8333 28.8958 49.6875 31.1146 49.6875 33.6562C49.6875 36.4271 48.7083 38.7917 46.75 40.75C44.8125 42.6875 42.4583 43.6562 39.6875 43.6562ZM12.1875 43.6562C9.91667 43.6562 7.88542 42.9688 6.09375 41.5938C4.32292 40.2188 3.13542 38.4375 2.53125 36.25C2.11458 34.7292 1.90625 33.125 1.90625 31.4375C1.90625 28.875 2.40625 26.2812 3.40625 23.6562C4.40625 21.0104 5.78125 18.5208 7.53125 16.1875C9.28125 13.8542 11.3021 11.6771 13.5938 9.65625C15.9062 7.61458 18.3854 5.82292 21.0312 4.28125L25.5625 8.8125C20.8542 12.5833 17.6354 15.5 15.9062 17.5625C14.1979 19.625 13.3125 21.6771 13.25 23.7188C15.7917 24.0104 17.9167 25.1042 19.625 27C21.3333 28.8958 22.1875 31.1146 22.1875 33.6562C22.1875 36.4271 21.2083 38.7917 19.25 40.75C17.3125 42.6875 14.9583 43.6562 12.1875 43.6562Z"
-                fill="#262626"
-              />
-            </g>
-            <defs>
-              <clipPath id="clip0_77_596">
-                <rect width="54" height="54" fill="white" />
-              </clipPath>
-            </defs>
-          </svg>
-          <div className="flex flex-col items-center gap-4">
-            <img
-              src="/assets/icons/react.svg"
-              alt="React"
-              className="h-16 w-16"
-            />
-            <span className="font-montserrat text-lg font-medium text-neutral-800">
-              React.js
-            </span>
-          </div>
-          <div className="flex flex-col items-center gap-4">
-            <img
-              src="/assets/icons/react.svg"
-              alt="React"
-              className="h-16 w-16"
-            />
-            <span className="font-montserrat text-lg font-medium text-neutral-800">
-              React.js
-            </span>
-          </div>
-          <div className="flex flex-col items-center gap-4">
-            <img
-              src="/assets/icons/react.svg"
-              alt="React"
-              className="h-16 w-16"
-            />
-            <span className="font-montserrat text-lg font-medium text-neutral-800">
-              React.js
-            </span>
-          </div>
-          <div className="flex gap-2">
-            <button
-              type="button"
-              title="Previous"
-              className="text-indigo-900 hover:text-indigo-500"
-            >
-              <LongArrowIcon className="h-6 w-6 rotate-180" />
-            </button>
-            <button
-              type="button"
-              title="Next"
-              className="text-indigo-900 hover:text-indigo-500"
-            >
-              <LongArrowIcon className="h-6 w-6" />
-            </button>
-          </div>
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          {technologies.map((techCategory) => (
+            <div key={techCategory.category}>
+              <h3 className="text-xl font-semibold mb-4 text-center">
+                {techCategory.category}
+              </h3>
+              <div className="flex flex-wrap justify-center gap-6">
+                {techCategory.skills.map((skill) => (
+                  <div
+                    key={skill.name}
+                    className="flex flex-col items-center gap-4"
+                  >
+                    <img
+                      src={skill.icon}
+                      alt={skill.name}
+                      className="h-16 w-16"
+                    />
+                    <span className="font-montserrat text-lg font-medium text-neutral-800">
+                      {skill.name}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
         <div className="absolute -top-96 left-0 z-0 h-[1920px] w-full overflow-hidden fill-indigo-300 sm:left-1/2 sm:-translate-x-1/2">
           <svg
