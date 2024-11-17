@@ -76,9 +76,11 @@ export default function Home() {
           </div>
           <div className="relative flex h-full w-[calc(100%-4rem)] items-center justify-center rounded-lg bg-neutral-200 max-2xl:mr-[3.75rem] lg:w-full">
             <div className="w-[350px] h-[351px] flex justify-center items-center">
-              <h2 className="text-center text-blue-500 hover:underline">
-                <Link href="/snake">Play Snake Game</Link>
-              </h2>
+              <img
+                src="https://res.cloudinary.com/doszhdiv2/image/upload/v1731840594/moxxldjgoplxzai490wq.jpg"
+                alt="Image"
+                className="h-full w-full object-cover rounded-lg"
+              />
             </div>
             <div className="absolute -bottom-[50px] -right-[50px]">
               <div className="relative h-[230px] w-[150px]">
