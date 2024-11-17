@@ -53,10 +53,10 @@ export default function Home() {
               Hi, Here is Bedrani Mohammed Adel I&apos;m a Web & Mobile
               Developer
             </h1>
-            <span className="text-xl font-medium leading-6 text-neutral-500">
-              "Every great developer you know got there by solving problems they
-              were unqualified to solve until they actually did it." – Patrick
-              McKenzie
+            <span className="text-xl font-medium leading-6 text-neutral-500 italic animate-fadeIn">
+              &quot;Every great developer you know got there by solving problems
+              they were unqualified to solve until they actually did it.&quot; –
+              Patrick McKenzie
             </span>
             <div className="flex gap-4">
               <Link
