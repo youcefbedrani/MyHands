@@ -2,24 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --brand-primary: #4f46e5;
+    --brand-secondary: #0ea5e9;
+    --brand-accent: #8b5cf6;
+    --bg-dark: #0f172a;
+    --text-main: #f8fafc;
+  }
+}
+
 html {
     scroll-behavior: smooth;
 }
 
+body {
+    @apply antialiased;
+}
+
 .noise {
     background-image: url(/noise.png);
+    opacity: 0.05;
 }
 
 .radial-gradient {
-    background: radial-gradient(50% 50% at 50% 50%, #A5B4FC 0%, #FFF 100%);
+    background: radial-gradient(circle at 50% 50%, rgba(79, 70, 229, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.premium-gradient {
+    background: linear-gradient(135deg, #4f46e5 0%, #8b5cf6 50%, #0ea5e9 100%);
+}
+
+.glass-morphism {
+    @apply bg-white/10 backdrop-blur-md border border-white/20 shadow-xl;
 }
 
 #experience {
     background-image: url(/exp_doodle.svg);
-    background-blend-mode: color-burn;
+    background-blend-mode: soft-light;
+    @apply bg-indigo-50/50;
 }
 
 .radial-mask {
-    -webkit-mask-image: radial-gradient(24rem 24rem at center, white, transparent);
-    mask-image: radial-gradient(24rem 24rem at center, white, transparent);
+    -webkit-mask-image: radial-gradient(32rem 32rem at center, white, transparent);
+    mask-image: radial-gradient(32rem 32rem at center, white, transparent);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    @apply bg-neutral-100;
+}
+::-webkit-scrollbar-thumb {
+    @apply bg-indigo-300 rounded-full hover:bg-indigo-400 transition-colors;
 }

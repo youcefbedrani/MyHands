@@ -13,94 +13,170 @@ const PDF_PATH = "BedraniMohammedAdelResume.pdf";
 
 const PROJECTS = [
   {
-    title: "Modern Snake Game",
+    title: "NA Market Intelligence",
     description:
-      "Built a modern rendition of the classic Snake game with a leaderboard to encourage competition among players.",
-    tags: ["JavaScript", "React.js", "Tailwind CSS", "Vercel"],
-    image: "https://www.coolmathgames.com/sites/default/files/Snake_OG-logo.jpg",
-    url: "https://github.com/youcefbedrani/SnakeGame",
-    blogUrl: "/blog/portfolio",
+      "Founder of an AI-powered market intelligence system for ecommerce entrepreneurs. Find winner products in less than 1 minute with detailed reports and predictive analytics.",
+    tags: ["Product Research", "AI", "Ecommerce", "Founder"],
+    image: "https://res.cloudinary.com/doszhdiv2/image/upload/v1731840594/moxxldjgoplxzai490wq.jpg",
+    url: "#",
+    blogUrl: "/blog/na-market",
   },
   {
-    title: "Expense Tracker",
+    title: "Role8 Corporate",
     description:
-      "Developed an expense tracker to monitor income and expenses, allowing users to categorize and visualize financial data.",
-    tags: ["Vue.js", "TypeScript", "Tailwind CSS", "Vuex"],
+      "A professional corporate showcase website for Role8, highlighting their ERP solutions and business consultancy services with a modern UI/UX.",
+    tags: ["WordPress", "UI/UX", "Responsive", "Corporate"],
     image: "/portfolio.png",
-    url: "https://github.com/youcefbedrani/expense-tracker",
-    blogUrl: "/blog/portfolio",
+    url: "https://role8.com/",
+    blogUrl: "/blog/role8",
   },
   {
-    title: "Gemini AI Clone",
+    title: "Afaq Coffee",
     description:
-      "Created a clone of the Gemini AI platform, demonstrating familiarity with AI design principles and interactivity.",
-    tags: ["JavaScript", "React.js"],
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgGEua5OXo7nFKVinH_d8BD2BycUAXDJwgRw&s",
-    url: "https://github.com/youcefbedrani/Gimini-clone",
-    blogUrl: "/blog/gemini-clone",
-  },
-  {
-    title: "Server Monitoring Dashboard",
-    description:
-      "Developed a dashboard for real-time server monitoring, displaying CPU, RAM, and storage metrics, with automated email alerts for issues.",
-    tags: ["JavaScript", "Node.js"],
+      "A premium, mobile-first e-commerce platform for a specialty coffee brand, featuring a custom shopping experience and integrated payment solutions.",
+    tags: ["E-commerce", "Modern Design", "Mobile-first"],
     image: "/portfolio.png",
-    url: "https://github.com/youcefbedrani/Server_Monitoring",
-    blogUrl: "/blog/server-monitoring",
+    url: "https://afaqcoffee.com/",
+    blogUrl: "/blog/afaq-coffee",
   },
   {
-    title: "To-Do List Application",
+    title: "Rouisia Voice",
     description:
-      "Created a to-do list application with dynamic categorization and task management, built to optimize productivity.",
-    tags: ["Vue.js", "TypeScript"],
+      "A high-traffic media and press platform with advanced CMS features, SEO optimizations, and full multi-language capabilities.",
+    tags: ["CMS", "SEO", "Multi-language", "Press"],
     image: "/portfolio.png",
-    url: "https://github.com/youcefbedrani/todo",
-    blogUrl: "/blog/todo",
+    url: "https://rouisiavoice.com/",
+    blogUrl: "/blog/rouisia-voice",
   },
   {
-    title: "Point-of-Sale (POS) Application",
+    title: "WiFi Djelfa",
     description:
-      "A point-of-sale (POS) application with functionalities tailored for managing market transactions and sales.",
-    tags: ["C#"],
+      "Lead generation platform for an ISP, optimized for the Algerian market with full RTL support and streamlined user conversion paths.",
+    tags: ["Arabe RTL", "Lead Gen", "Optimization"],
     image: "/portfolio.png",
-    url: "https://github.com/youcefbedrani/My_Market",
-    blogUrl: "/blog/pos-application",
+    url: "https://wifidjelfa.com/ar/",
+    blogUrl: "/blog/wifi-djelfa",
   },
   {
-    title: "Minesweeper Game",
+    title: "Maroua Meubles",
     description:
-      "A C# version of the classic Minesweeper game. This project allows players to test their skills in identifying mine locations on a grid.",
-    tags: ["C#"],
+      "Full-featured furniture e-commerce catalogue and store built with WooCommerce, featuring extensive product categories and RTL support.",
+    tags: ["WooCommerce", "Arabe RTL", "Catalogue"],
     image: "/portfolio.png",
-    url: "https://github.com/youcefbedrani/Minesweeper",
-    blogUrl: "/blog/minesweeper",
+    url: "https://marouameubles.com/?lang=ar",
+    blogUrl: "/blog/maroua-meubles",
   },
   {
-    title: "Node Dashboard",
+    title: "Roisia News",
     description:
-      "A simple Node.js dashboard that demonstrates my skills in backend development using Node.js and EJS templating.",
-    tags: ["EJS", "JavaScript", "Node.js"],
+      "A performance-oriented news portal and information hub, designed for rapid content delivery and maximum engagement.",
+    tags: ["News", "Responsive", "Performance"],
     image: "/portfolio.png",
-    url: "https://github.com/youcefbedrani/Node-GG",
-    blogUrl: "/blog/node-dashboard",
+    url: "https://roisia.com/",
+    blogUrl: "/blog/roisia",
   },
   {
     title: "Micazone Application",
     description:
-      "A mobile app with real-time map tracking, allowing users to request truck services instantly. Features include user registration, order management, and real-time trucker tracking.",
-    tags: ["React Native", "Leaflet", "Firebase", "Strapi"],
+      "Real-time logistics mobile app for tracking truckers and requesting services instantly, featuring Firebase integration and custom order management.",
+    tags: ["React Native", "Firebase", "Real-time", "Logistics"],
     image: "/photo_5931775480376180451_x.jpg",
     url: "https://github.com/youcefbedrani/DP_V1",
     blogUrl: "/blog/micazone",
+  },
+  {
+    title: "Vogue Fashion Marketplace",
+    description:
+      "A high-end multi-vendor fashion marketplace with AI-driven style recommendations, real-time inventory sync, and a luxury-focused UI.",
+    tags: ["Marketplace", "AI Recommendations", "Luxury UI"],
+    image: "/portfolio.png",
+    url: "#",
+    blogUrl: "/blog/vogue-fashion",
+  },
+  {
+    title: "FreshGo Grocery Delivery",
+    description:
+      "A complete grocery delivery ecosystem including a user app, driver app, and a sophisticated admin dashboard for order fulfillment.",
+    tags: ["Mobile App", "Admin Dashboard", "Logistics"],
+    image: "/portfolio.png",
+    url: "#",
+    blogUrl: "/blog/fresh-go",
+  },
+  {
+    title: "Chrono Luxury Watches",
+    description:
+      "An ultra-premium e-commerce experience for luxury timepieces with 360° product views and secure high-value transaction handling.",
+    tags: ["Luxury E-commerce", "360 Views", "Secure Payments"],
+    image: "/portfolio.png",
+    url: "#",
+    blogUrl: "/blog/chrono-watches",
+  },
+  {
+    title: "SaaS Subscription Platform",
+    description:
+      "A robust billing and subscription management system for software providers, featuring automated invoicing, multi-tier plans, and developer-friendly APIs.",
+    tags: ["SaaS", "Billing", "Stripe", "Dashboard"],
+    image: "/portfolio.png",
+    url: "#",
+    blogUrl: "/blog/saas-platform",
+  },
+  {
+    title: "Artisan Marketplace",
+    description:
+      "A community-driven marketplace for local creators, featuring vendor dashboards, localized search, and integrated digital product delivery.",
+    tags: ["Marketplace", "Vendor Management", "Community"],
+    image: "/portfolio.png",
+    url: "#",
+    blogUrl: "/blog/artisan-marketplace",
+  },
+  {
+    title: "Personal Portfolio",
+    description:
+      "The latest iteration of my professional portfolio, showcasing advanced frontend techniques and a premium user experience.",
+    tags: ["Next.js", "Tailwind", "Motion"],
+    image: "/portfolio.png",
+    url: "https://nextjs-sigma-ten-42.vercel.app/",
+    blogUrl: "/blog/portfolio",
   },
 ];
 
 const EXPERIENCE = [
   {
+    jobTitle: "Odoo Developer & ERP Consultant",
+    description:
+      "Remote Odoo developer for Role8 company in Saudi Arabia. Specializing in Odoo ERP customization, module development, and business process optimization for Saudi-based enterprises.",
+    startDate: "2024-10-01",
+    endDate: "Present",
+    company: {
+      name: "Role8",
+      url: "https://role8.com",
+    },
+    modality: "Remote",
+    tags: [
+      "Odoo",
+      "Python",
+      "ERP",
+      "Business Intelligence",
+      "KSA Market",
+    ],
+  },
+  {
+    jobTitle: "Fullstack Web Developer",
+    description:
+      "Building enterprise-grade web applications using C# and ASP.NET Core at G22 company, Zeralda. Responsible for both frontend and backend development, ensuring high performance and scalability.",
+    startDate: "2024-06-01",
+    endDate: "Present",
+    company: {
+      name: "G22",
+      url: "#",
+    },
+    modality: "On-site",
+    tags: ["C#", "ASP.NET Core", "SQL Server", "Fullstack", "Enterprise"],
+  },
+  {
     jobTitle: "Main Software Engineer",
     description:
-      "Created a mobile app with a real-time map to track online truckers, allowing users to request services instantly. Integrated Firebase Auth with Strapi CMS and SQLite for high-performance user management. Connected the mobile app with a web dashboard to manage users and display comprehensive app statistics.",
+      "Created a mobile app with a real-time map to track online truckers, allowing users to request services instantly. Integrated Firebase Auth with Strapi CMS and SQLite for high-performance user management.",
     startDate: "2024-01-01",
     endDate: "2024-05-31",
     company: {
@@ -119,7 +195,7 @@ const EXPERIENCE = [
   {
     jobTitle: "Fullstack Web Developer Intern",
     description:
-      "Developed a back-office application to manage company assets, improving operational efficiency. Designed a user-friendly interface for asset tracking and control, and built backend services using Django and PostgreSQL to support real-time monitoring and data management.",
+      "Developed a back-office application to manage company assets, improving operational efficiency with Django and PostgreSQL.",
     startDate: "2024-03-01",
     endDate: "2024-08-31",
     company: {
@@ -128,58 +204,6 @@ const EXPERIENCE = [
     },
     modality: "On-site",
     tags: ["Django", "PostgreSQL", "Fullstack Development", "Asset Management"],
-  },
-  {
-    jobTitle: "Software Engineer Intern",
-    description:
-      "Developed a comprehensive server monitoring dashboard to track CPU, RAM, and storage in real-time. Designed an intuitive UI for efficient server management and automated email alerts for high CPU usage, enhancing system reliability.",
-    startDate: "2024-01-01",
-    endDate: "2024-03-31",
-    company: {
-      name: "Netfer",
-      url: "https://netfer.com",
-    },
-    modality: "On-site",
-    tags: ["Server Monitoring", "Backend Development", "UI Design"],
-  },
-  {
-    jobTitle: "Project Management Intern",
-    description:
-      "Gained insights into Algeria's telecommunications infrastructure and internet operations. Observed best practices in postal and telecommunications systems management.",
-    startDate: "2024-03-01",
-    endDate: "2024-04-30",
-    company: {
-      name: "Algiers Post",
-      url: "https://algierspost.com",
-    },
-    modality: "On-site",
-    tags: ["Project Management", "Telecommunications"],
-  },
-  {
-    jobTitle: "Networking Intern",
-    description:
-      "Explored telecommunications technologies and learned about internet distribution across Algeria. Acquired foundational knowledge in networking principles and internet connectivity standards.",
-    startDate: "2023-02-01",
-    endDate: "2023-03-31",
-    company: {
-      name: "Algiers Telecom",
-      url: "https://algerietelecom.dz",
-    },
-    modality: "On-site",
-    tags: ["Networking", "Telecommunications"],
-  },
-  {
-    jobTitle: "System Admin Intern",
-    description:
-      "Gained hands-on experience with local networks and system management at Sonatrach. Learned key networking and system administration concepts, supporting critical energy sector infrastructure.",
-    startDate: "2022-04-01",
-    endDate: "2022-05-31",
-    company: {
-      name: "Sonatrach",
-      url: "https://sonatrach.com",
-    },
-    modality: "On-site",
-    tags: ["System Administration", "Networking", "Energy Sector"],
   },
 ];
 
@@ -221,6 +245,14 @@ const technologies = [
         icon: "https://static-00.iconduck.com/assets.00/laravel-icon-1990x2048-xawylrh0.png",
       },
       {
+        name: "ASP.NET Core",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg",
+      },
+      {
+        name: "Odoo ERP",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Odoo-logo.png",
+      },
+      {
         name: "Node.js",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       },
@@ -232,14 +264,6 @@ const technologies = [
         name: "Strapi",
         icon: "https://avatars.githubusercontent.com/u/25422602?s=200&v=4",
       },
-      {
-        name: "REST API",
-        icon: "https://freepngimg.com/download/icon/web/7955-rest-api.png",
-      },
-      {
-        name: "GraphQL API",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
-      },
     ],
   },
   {
@@ -250,16 +274,16 @@ const technologies = [
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
       },
       {
-        name: "Oracle",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg",
+        name: "PostgreSQL",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+      },
+      {
+        name: "SQL Server",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg",
       },
       {
         name: "MongoDB",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-      },
-      {
-        name: "Firebase",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
       },
     ],
   },
@@ -267,20 +291,20 @@ const technologies = [
     category: "Languages",
     skills: [
       {
+        name: "C#",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+      },
+      {
+        name: "Python",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      },
+      {
         name: "TypeScript",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
       },
       {
-        name: "Java",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-      },
-      {
         name: "JavaScript",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-      },
-      {
-        name: "C",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
       },
       {
         name: "PHP",

@@ -20,7 +20,7 @@ export default function ProjectCard({ project }: ProjectCardInterface) {
 	const { title, description, image, url, blogUrl, tags } = project;
 
 	return (
-		<div className="group flex max-w-[368px] flex-col gap-4">
+		<div className="group flex max-w-[368px] flex-col gap-4 glass-morphism p-4 rounded-xl transition-all duration-300 hover:scale-[1.02]">
 			{/*<div className="relative flex h-[257px] w-full items-center justify-center overflow-hidden rounded-lg bg-neutral-200">
 				<div className="absolute right-0 top-0 h-44 w-44 rounded-full bg-indigo-400 blur-3xl" />
 				<ImagePlaceholder />
@@ -70,7 +70,7 @@ export default function ProjectCard({ project }: ProjectCardInterface) {
 					tags.map((tag) => (
 						<span
 							key={tag}
-							className="rounded-lg bg-indigo-300 px-1.5 py-1 font-montserrat text-sm font-medium text-indigo-50"
+							className="rounded-lg bg-indigo-500/10 backdrop-blur-sm px-2 py-1 font-montserrat text-xs font-semibold text-indigo-600 border border-indigo-200/50"
 						>
 							{tag}
 						</span>
