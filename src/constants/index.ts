@@ -130,6 +130,24 @@ const PROJECTS = [
     blogUrl: "/blog/artisan-marketplace",
   },
   {
+    title: "Audiophile E-commerce",
+    description:
+      "A high-end audio equipment store featuring a complex product catalog, custom cart logic, and a multi-step checkout process with a sleek, dark-themed UI.",
+    tags: ["React", "Next.js", "Redux", "Audio UI"],
+    image: "/portfolio.png",
+    url: "https://github.com/youcefbedrani/Audiophile-e-commerce",
+    blogUrl: "/blog/audiophile",
+  },
+  {
+    title: "Kids & Baby Lifestyle Shop",
+    description:
+      "A vibrant and user-friendly e-commerce platform dedicated to children's fashion and toys, featuring category filtering, wishlist, and secure checkout.",
+    tags: ["Next.js", "Tailwind", "E-commerce", "Responsive"],
+    image: "/portfolio.png",
+    url: "https://github.com/youcefbedrani/Kids-E-commerce",
+    blogUrl: "/blog/kids-shop",
+  },
+  {
     title: "Personal Portfolio",
     description:
       "The latest iteration of my professional portfolio, showcasing advanced frontend techniques and a premium user experience.",
