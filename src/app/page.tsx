@@ -50,12 +50,12 @@ export default function Home() {
               </Link>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-neutral-800 leading-tight">
-              Building <span className="text-indigo-600">Premium E-commerce</span> & Intelligent Systems
+              Building <span className="text-indigo-600">Premium E-commerce</span> &amp; Intelligent Systems
             </h1>
             <p className="text-xl font-medium text-neutral-600 leading-relaxed">
               I specialize in high-performance <span className="text-indigo-500">Custom E-commerce Platforms</span>,
               <span className="text-blue-500"> AI-Powered Solutions</span>, and <span className="text-indigo-500">Odoo ERP</span> integrations that drive business growth.
-              Founder of **NA Market Intelligence**.
+              Founder of <span className="font-bold">NA Market Intelligence</span>.
             </p>
             <div className="flex gap-4">
               <Link
