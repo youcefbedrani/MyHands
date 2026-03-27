@@ -25,45 +25,15 @@ export default function ProjectCard({ project }: ProjectCardInterface) {
 				<div className="absolute right-0 top-0 h-44 w-44 rounded-full bg-indigo-400 blur-3xl" />
 				<ImagePlaceholder />
 	</div>*/}
-			<div className="relative flex h-[257px] w-full items-center justify-center overflow-hidden rounded-lg bg-neutral-100">
-				<div className="absolute left-1/2 top-1/2 z-10 grid h-fit w-[464px] min-w-[464px] -translate-x-1/2 -translate-y-1/2 rotate-12 -skew-x-[12deg] -skew-y-2 grid-cols-2 gap-4 duration-300 ease-out group-hover:rotate-0 group-hover:skew-y-[8deg] group-hover:scale-125">
-					<div className="h-32 w-56 min-w-[14rem] overflow-hidden rounded-md drop-shadow-lg duration-300 ease-out group-hover:drop-shadow-2xl">
-						<Image
-							src={"/projects/home0.jpeg"}
-							alt={title}
-							width={368}
-							height={257}
-							className="h-full w-full rounded-md object-cover"
-						/>
-					</div>
-					<div className="h-32 w-56 min-w-[14rem] overflow-hidden rounded-md drop-shadow-lg duration-300 ease-out group-hover:drop-shadow-2xl">
-						<Image
-							src={"/projects/home1.jpeg"}
-							alt={title}
-							width={368}
-							height={257}
-							className="h-full w-full rounded-md object-cover"
-						/>
-					</div>
-					<div className="h-32 w-56 min-w-[14rem] overflow-hidden rounded-md drop-shadow-lg duration-300 ease-out group-hover:drop-shadow-2xl">
-						<Image
-							src={"/projects/home2.jpeg"}
-							alt={title}
-							width={368}
-							height={257}
-							className="h-full w-full rounded-md object-cover"
-						/>
-					</div>
-					<div className="h-32 w-56 min-w-[14rem] overflow-hidden rounded-md drop-shadow-lg duration-300 ease-out group-hover:drop-shadow-2xl">
-						<Image
-							src={"/projects/projects.jpeg"}
-							alt={title}
-							width={368}
-							height={257}
-							className="h-full w-full rounded-md object-cover"
-						/>
-					</div>
-				</div>
+			<div className="relative flex h-[240px] w-full items-center justify-center overflow-hidden rounded-xl bg-neutral-100 border border-white/10 shadow-inner">
+				<Image
+					src={image || "/assets/images/project_fallback_1.png"}
+					alt={title}
+					width={400}
+					height={240}
+					className="h-full w-full object-cover group-hover:scale-110 transition-transform duration-500 ease-out"
+				/>
+				<div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none" />
 			</div>
 			<div className="flex gap-2">
 				{tags &&

@@ -77,19 +77,32 @@ export default function Home() {
             </div>
           </div>
           <div className="relative flex h-full w-full items-center justify-center rounded-lg bg-neutral-200 lg:w-[400px]">
-            <div className="w-full h-[351px] flex justify-center items-center overflow-hidden rounded-lg">
+            <div className="w-full h-[400px] flex justify-center items-center overflow-hidden">
               <img
-                src="https://res.cloudinary.com/doszhdiv2/image/upload/v1743010000/ecommerce_hero.jpg"
-                alt="E-commerce Solutions"
-                className="h-full w-full object-cover"
+                src="/assets/images/hero_premium.png"
+                alt="Intelligent Systems"
+                className="h-full w-full object-cover opacity-90 hover:scale-105 transition-transform duration-700"
               />
             </div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
           </div>
         </div>
         <div className="radial-gradient absolute right-[calc(50%-1920px)] top-[calc(100%-1920px)] z-[-1] h-[1920px] w-[1920px] rounded-full" />
         <GridIcon className="radial-mask absolute -left-[21rem] -top-[2.9rem] -z-10 h-[37rem] w-full opacity-25" />
       </section>
       <ProjectSection />
+      <section id="experience-intro" className="py-12 px-4 text-center">
+        <div className="max-w-[800px] mx-auto">
+          <img
+            src="/assets/images/experience_premium.png"
+            alt="Growth & Systems"
+            className="w-32 h-32 mx-auto mb-6 rounded-full border-4 border-indigo-100 shadow-lg object-cover"
+          />
+          <p className="text-xl text-neutral-500 italic max-w-2xl mx-auto font-light">
+            "Driven by a passion for architectural excellence and scalable solutions across the full stack."
+          </p>
+        </div>
+      </section>
       <ExperienceSection />
       <section
         id="testimonials"
@@ -144,31 +157,45 @@ export default function Home() {
         </div>
       </section>
       <section id="why-me" className="py-24 px-4 bg-neutral-50/50">
-        <div className="max-w-[1000px] mx-auto text-center">
-          <h2 className="text-3xl md:text-5xl font-bold text-neutral-800 mb-12">
-            Why Partner With Me?
-          </h2>
+        <div className="max-w-[1000px] mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-12 mb-16">
+            <div className="flex-1 text-center md:text-left">
+              <h2 className="text-3xl md:text-5xl font-bold text-neutral-800 mb-6 font-montserrat">
+                Why Partner With Me?
+              </h2>
+              <p className="text-lg text-neutral-600 mb-8 font-light">
+                I bring a unique blend of technical mastery as a Software Engineer and strategic insight as a Founder and ERP Consultant.
+              </p>
+            </div>
+            <div className="w-full md:w-[400px] h-[250px] rounded-2xl overflow-hidden shadow-xl border border-neutral-200">
+              <img
+                src="https://res.cloudinary.com/doszhdiv2/image/upload/v1743010000/partnership_premium.png"
+                alt="Strategic Collaboration"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-8 rounded-2xl bg-white border border-neutral-100 shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center text-indigo-600 mb-6 mx-auto">
+            <div className="p-8 rounded-2xl bg-white border border-neutral-100 shadow-sm hover:shadow-lg transition-all group">
+              <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center text-indigo-600 mb-6 mx-auto group-hover:bg-indigo-600 group-hover:text-white transition-colors">
                 <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
               </div>
               <h3 className="text-xl font-bold mb-4">Fast Delivery</h3>
-              <p className="text-neutral-600">Rebuilding sites from scratch with modern stacks (Next.js/Tailwind) in as little as 3-5 days.</p>
+              <p className="text-neutral-600">Rebuilding sites from scratch with modern stacks in record time without compromising quality.</p>
             </div>
-            <div className="p-8 rounded-2xl bg-white border border-neutral-100 shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-6 mx-auto">
+            <div className="p-8 rounded-2xl bg-white border border-neutral-100 shadow-sm hover:shadow-lg transition-all group">
+              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-6 mx-auto group-hover:bg-blue-600 group-hover:text-white transition-colors">
                 <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
               </div>
               <h3 className="text-xl font-bold mb-4">Client-Centric</h3>
               <p className="text-neutral-600">Specialized in e-commerce and ERP solutions that don't just look good, but drive real business results.</p>
             </div>
-            <div className="p-8 rounded-2xl bg-white border border-neutral-100 shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center text-purple-600 mb-6 mx-auto">
+            <div className="p-8 rounded-2xl bg-white border border-neutral-100 shadow-sm hover:shadow-lg transition-all group">
+              <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center text-purple-600 mb-6 mx-auto group-hover:bg-purple-600 group-hover:text-white transition-colors">
                 <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A11.02 11.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
               </div>
               <h3 className="text-xl font-bold mb-4">Full Ownership</h3>
-              <p className="text-neutral-600">From design (Figma) to deployment (Vercel/Docker), I handle the entire lifecycle of your project.</p>
+              <p className="text-neutral-600">From concept and architectural design to global deployment, I handle the entire lifecycle.</p>
             </div>
           </div>
         </div>
