@@ -26,7 +26,7 @@ const PROJECTS = [
     description:
       "A professional corporate showcase website for Role8, highlighting their ERP solutions and business consultancy services with a modern UI/UX.",
     tags: ["WordPress", "UI/UX", "Responsive", "Corporate"],
-    image: "/portfolio.png",
+    image: "/assets/images/project_fallback_1.png",
     url: "https://role8.com/",
     blogUrl: "/blog/role8",
   },
@@ -35,7 +35,7 @@ const PROJECTS = [
     description:
       "A premium, mobile-first e-commerce platform for a specialty coffee brand, featuring a custom shopping experience and integrated payment solutions.",
     tags: ["E-commerce", "Modern Design", "Mobile-first"],
-    image: "/portfolio.png",
+    image: "/assets/images/project_fallback_2.png",
     url: "https://afaqcoffee.com/",
     blogUrl: "/blog/afaq-coffee",
   },
@@ -44,7 +44,7 @@ const PROJECTS = [
     description:
       "A high-traffic media and press platform with advanced CMS features, SEO optimizations, and full multi-language capabilities.",
     tags: ["CMS", "SEO", "Multi-language", "Press"],
-    image: "/portfolio.png",
+    image: "/assets/images/project_fallback_1.png",
     url: "https://rouisiavoice.com/",
     blogUrl: "/blog/rouisia-voice",
   },
@@ -53,7 +53,7 @@ const PROJECTS = [
     description:
       "Lead generation platform for an ISP, optimized for the Algerian market with full RTL support and streamlined user conversion paths.",
     tags: ["Arabe RTL", "Lead Gen", "Optimization"],
-    image: "/portfolio.png",
+    image: "/assets/images/project_fallback_1.png",
     url: "https://wifidjelfa.com/ar/",
     blogUrl: "/blog/wifi-djelfa",
   },
@@ -62,7 +62,7 @@ const PROJECTS = [
     description:
       "Full-featured furniture e-commerce catalogue and store built with WooCommerce, featuring extensive product categories and RTL support.",
     tags: ["WooCommerce", "Arabe RTL", "Catalogue"],
-    image: "/portfolio.png",
+    image: "/assets/images/project_fallback_2.png",
     url: "https://marouameubles.com/?lang=ar",
     blogUrl: "/blog/maroua-meubles",
   },
@@ -71,7 +71,7 @@ const PROJECTS = [
     description:
       "A performance-oriented news portal and information hub, designed for rapid content delivery and maximum engagement.",
     tags: ["News", "Responsive", "Performance"],
-    image: "/portfolio.png",
+    image: "/assets/images/project_fallback_1.png",
     url: "https://roisia.com/",
     blogUrl: "/blog/roisia",
   },
@@ -89,7 +89,7 @@ const PROJECTS = [
     description:
       "A high-end multi-vendor fashion marketplace with AI-driven style recommendations, real-time inventory sync, and a luxury-focused UI.",
     tags: ["Marketplace", "AI Recommendations", "Luxury UI"],
-    image: "/portfolio.png",
+    image: "/assets/images/project_fallback_2.png",
     url: "#",
     blogUrl: "/blog/vogue-fashion",
   },
@@ -98,7 +98,7 @@ const PROJECTS = [
     description:
       "A complete grocery delivery ecosystem including a user app, driver app, and a sophisticated admin dashboard for order fulfillment.",
     tags: ["Mobile App", "Admin Dashboard", "Logistics"],
-    image: "/portfolio.png",
+    image: "/assets/images/project_fallback_2.png",
     url: "#",
     blogUrl: "/blog/fresh-go",
   },
@@ -107,7 +107,7 @@ const PROJECTS = [
     description:
       "An ultra-premium e-commerce experience for luxury timepieces with 360° product views and secure high-value transaction handling.",
     tags: ["Luxury E-commerce", "360 Views", "Secure Payments"],
-    image: "/portfolio.png",
+    image: "/assets/images/project_fallback_2.png",
     url: "#",
     blogUrl: "/blog/chrono-watches",
   },
@@ -116,7 +116,7 @@ const PROJECTS = [
     description:
       "A robust billing and subscription management system for software providers, featuring automated invoicing, multi-tier plans, and developer-friendly APIs.",
     tags: ["SaaS", "Billing", "Stripe", "Dashboard"],
-    image: "/portfolio.png",
+    image: "/assets/images/project_fallback_1.png",
     url: "#",
     blogUrl: "/blog/saas-platform",
   },
@@ -125,7 +125,7 @@ const PROJECTS = [
     description:
       "A community-driven marketplace for local creators, featuring vendor dashboards, localized search, and integrated digital product delivery.",
     tags: ["Marketplace", "Vendor Management", "Community"],
-    image: "/portfolio.png",
+    image: "/assets/images/project_fallback_2.png",
     url: "#",
     blogUrl: "/blog/artisan-marketplace",
   },
@@ -134,7 +134,7 @@ const PROJECTS = [
     description:
       "A high-end audio equipment store featuring a complex product catalog, custom cart logic, and a multi-step checkout process with a sleek, dark-themed UI.",
     tags: ["React", "Next.js", "Redux", "Audio UI"],
-    image: "/portfolio.png",
+    image: "/assets/images/project_fallback_2.png",
     url: "https://github.com/youcefbedrani/Audiophile-e-commerce",
     blogUrl: "/blog/audiophile",
   },
@@ -143,7 +143,7 @@ const PROJECTS = [
     description:
       "A vibrant and user-friendly e-commerce platform dedicated to children's fashion and toys, featuring category filtering, wishlist, and secure checkout.",
     tags: ["Next.js", "Tailwind", "E-commerce", "Responsive"],
-    image: "/portfolio.png",
+    image: "/assets/images/project_fallback_2.png",
     url: "https://github.com/youcefbedrani/Kids-E-commerce",
     blogUrl: "/blog/kids-shop",
   },
@@ -152,7 +152,7 @@ const PROJECTS = [
     description:
       "The latest iteration of my professional portfolio, showcasing advanced frontend techniques and a premium user experience.",
     tags: ["Next.js", "Tailwind", "Motion"],
-    image: "/portfolio.png",
+    image: "/assets/images/hero_premium.png",
     url: "https://nextjs-sigma-ten-42.vercel.app/",
     blogUrl: "/blog/portfolio",
   },
