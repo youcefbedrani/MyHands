@@ -12,6 +12,11 @@ export default function ContactSection() {
 		>
 			<div className="z-10 flex w-full max-w-[1000px] flex-col items-center gap-24 max-xl:px-4">
 				<div className="flex flex-col justify-center gap-8 md:items-center">
+					<img
+						src="/assets/images/contact_premium.png"
+						alt="Let's Connect"
+						className="w-24 h-24 md:w-32 md:h-32 rounded-full border-4 border-indigo-100 shadow-xl object-cover hover:scale-110 transition-transform duration-500"
+					/>
 					<div className="flex items-center gap-8">
 						<h1 className="font-montserrat text-5xl font-bold text-indigo-900">
 							Let&apos;s connect
